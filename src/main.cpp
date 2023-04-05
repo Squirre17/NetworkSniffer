@@ -122,7 +122,6 @@ int main() {
         print_hex_dump(payload, payload_size);
     }
 
-    // 关闭套接字
     close(sock_raw);
     return 0;
 }
